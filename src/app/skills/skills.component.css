@@ -1,0 +1,31 @@
+.skills{
+    background-image: url(../../assets/light-tl.svg),url(../../assets/light-tr.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 25em,25em;
+    background-position: top left,top right;
+    background-attachment: scroll, scroll;
+    text-align: center !important;
+    padding-top: 5%;
+
+}
+@media (min-width: 400px) and (max-width:900px) {
+    .skills {
+        background-size: 12em,12em;
+    }
+}
+
+.text_skills h2{
+    color:#fff;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    text-align: center !important;
+
+}
+.second_section div{
+    margin-left: 3%;
+    margin-top: 7%;
+    height: 100px;
+}
+.second_section{
+    padding-left: 10%;
+} 

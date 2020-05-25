@@ -14,7 +14,7 @@ h2{
 .line_five{
     position: absolute;
  left: 5%;
- top: 14%;
+ top: 17%;
     width: 35%;
     background-color:grey;
     height: 1px;
@@ -23,7 +23,7 @@ h2{
 .line_six{
     position: absolute;
     left: 5%;
-    top: 14.5%;
+    top: 17.5%;
        width: 35%;
        background-color:grey;
        height: 1px;
@@ -33,7 +33,7 @@ h2{
 .line_seven{
     position: absolute;
     right: 5%;
-    top: 14%;
+    top: 17%;
        width: 35%;
        background-color:grey;
        height: 1px;
@@ -43,7 +43,7 @@ h2{
 .line_eight{
     position: absolute;
     right: 5%;
-    top: 14.5%;
+    top: 17.5%;
        width: 35%;
        background-color:grey;
        height: 1px;
