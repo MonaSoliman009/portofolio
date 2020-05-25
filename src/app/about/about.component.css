@@ -1,0 +1,60 @@
+.about{
+
+    height: 600px;
+    width: 100%;
+    background-color:black;
+    position: relative;
+  
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem
+}
+.line_five{
+    position: absolute;
+ left: 5%;
+ top: 14%;
+    width: 35%;
+    background-color:grey;
+    height: 1px;
+    opacity: 0.5;
+}
+.line_six{
+    position: absolute;
+    left: 5%;
+    top: 14.5%;
+       width: 35%;
+       background-color:grey;
+       height: 1px;
+       opacity: 0.5;
+
+   }
+.line_seven{
+    position: absolute;
+    right: 5%;
+    top: 14%;
+       width: 35%;
+       background-color:grey;
+       height: 1px;
+       opacity: 0.5;
+
+}
+.line_eight{
+    position: absolute;
+    right: 5%;
+    top: 14.5%;
+       width: 35%;
+       background-color:grey;
+       height: 1px;
+       opacity: 0.5;
+
+}
+p{
+    color: #fff;
+    font-size: 30px;
+    margin-top:5%;
+    font-family:'Work Sans', sans-serif;;
+
+}
