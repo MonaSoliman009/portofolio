@@ -1,3 +1,10 @@
+@font-face{
+    src : url(../../assets/Clip.ttf);
+    font-family: Clip;
+}
+
+
+
 @keyframes move-twink-back {
   
     from {background-position:0 0;}
@@ -126,19 +133,7 @@
 
 }
 
-.info h2{
-    color:white;
-    font-size: 30 px;
-    z-index: 5965536;
-}
-.info{
-    width: 40%;
-    z-index: 5887665;
-    height: 300 px;
-    background-color:teal;
-    margin: auto;
-    margin-top: 10%;
-}
+
 
 nav{
     margin-top: 0.6%;
@@ -166,7 +161,22 @@ nav{
     position: relative;
 
  }
+ .navbar-brand {
+    position: relative;
+ }
  nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+  }
+  .navbar-brand:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -182,3 +192,263 @@ nav{
     visibility: visible;
     transform: scaleX(1);
   }
+  .navbar-brand:hover:before{
+
+
+    visibility: visible;
+    transform: scaleX(1);
+
+  }
+  .navbar-toggler {
+    padding: 2%;
+    border: none;
+  }
+  
+  .navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  .line_one{
+      height: 1px;
+      width: 84%;
+      background-color:#fff;
+      margin:auto;
+      margin-bottom:0.7%
+  }
+  .line_two{
+    height: 1px;
+    width: 84%;
+    background-color:#fff;
+    margin:auto;
+    margin-bottom:2%
+
+  }
+  .info h2{
+    color:white;
+    font-size: 30 px;
+    z-index: 5965536;
+    text-align: center;
+}
+.info{
+    z-index: 5887665;
+    margin-top: 15%;
+}
+.line_three{
+    height: 1px;
+    width: 84%;
+    background-color:#fff;
+    margin:auto;
+    margin-bottom:2%;
+    margin-top:3%
+  }
+  .line_four{
+    height: 1px;
+    width: 84%;
+    background-color:#fff;
+    margin:auto;
+    margin-bottom:2%;
+    margin-top:4%
+  }
+  .word_header{
+      /* background-color:#4701d0; */
+      font-family: 'Sacramento', cursive;
+      font-size: 40px;
+    }
+    .sign {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        background-image: radial-gradient(
+          ellipse 50% 35% at 50% 50%,
+          #6b1839,
+          transparent
+        );
+        transform: translate(-50%, -50%);
+        letter-spacing: 2;
+        left: 50%;
+        top: 50%;
+        font-family: "Clip";
+        text-transform: uppercase;
+        font-size: 2em;
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+          -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+          0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        animation: shine 2s forwards, flicker 3s infinite;
+      }
+      
+      @keyframes blink {
+        0%,
+        22%,
+        36%,
+        75% {
+          color: #ffe6ff;
+          text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        }
+        28%,
+        33% {
+          color: #ff65bd;
+          text-shadow: none;
+        }
+        82%,
+        97% {
+          color: #ff2483;
+          text-shadow: none;
+        }
+      }
+      
+      .flicker {
+        animation: shine 2s forwards, blink 3s 2s infinite;
+      }
+      
+      .fast-flicker {
+        animation: shine 2s forwards, blink 10s 1s infinite;
+      }
+      
+      @keyframes shine {
+        0% {
+          color: #6b1839;
+          text-shadow: none;
+        }
+        100% {
+          color: #ffe6ff;
+          text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        }
+      }
+      
+      @keyframes flicker {
+        from {
+          opacity: 1;
+        }
+      
+        4% {
+          opacity: 0.9;
+        }
+      
+        6% {
+          opacity: 0.85;
+        }
+      
+        8% {
+          opacity: 0.95;
+        }
+      
+        10% {
+          opacity: 0.9;
+        }
+      
+        11% {
+          opacity: 0.922;
+        }
+      
+        12% {
+          opacity: 0.9;
+        }
+      
+        14% {
+          opacity: 0.95;
+        }
+      
+        16% {
+          opacity: 0.98;
+        }
+      
+        17% {
+          opacity: 0.9;
+        }
+      
+        19% {
+          opacity: 0.93;
+        }
+      
+        20% {
+          opacity: 0.99;
+        }
+      
+        24% {
+          opacity: 1;
+        }
+      
+        26% {
+          opacity: 0.94;
+        }
+      
+        28% {
+          opacity: 0.98;
+        }
+      
+        37% {
+          opacity: 0.93;
+        }
+      
+        38% {
+          opacity: 0.5;
+        }
+      
+        39% {
+          opacity: 0.96;
+        }
+      
+        42% {
+          opacity: 1;
+        }
+      
+        44% {
+          opacity: 0.97;
+        }
+      
+        46% {
+          opacity: 0.94;
+        }
+      
+        56% {
+          opacity: 0.9;
+        }
+      
+        58% {
+          opacity: 0.9;
+        }
+      
+        60% {
+          opacity: 0.99;
+        }
+      
+        68% {
+          opacity: 1;
+        }
+      
+        70% {
+          opacity: 0.9;
+        }
+      
+        72% {
+          opacity: 0.95;
+        }
+      
+        93% {
+          opacity: 0.93;
+        }
+      
+        95% {
+          opacity: 0.95;
+        }
+      
+        97% {
+          opacity: 0.93;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
+      
