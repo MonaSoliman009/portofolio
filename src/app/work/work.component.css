@@ -4,6 +4,7 @@
     font-size: 4rem;
     text-align: center !important;
 
+    margin-bottom: 8%;
 }
 .work{
     padding-top: 5%;
@@ -11,13 +12,16 @@
 .work_details div{
     margin-bottom: 4%;
     border-radius: 0.25rem;
+    padding-bottom: 2%;
 }
 .work_details{
     padding-left: 10%;
+    overflow: auto;
 }
 .work_details img{
     width: 100%;
     transition: all 1s ;
+    height: 105%;
 
 }
 .work_details h2{
@@ -36,14 +40,32 @@
 .img_container{
     overflow: hidden;
     width: 100%;
+    height: 50%;
+    position: relative;
+
+}
+.surface{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:-20px;
+    background-color:black;
+    opacity: 0.8;
+    visibility: hidden;
+    z-index: 548963254;
+    transition: all 0.5s ;
 
 }
 .img_container:hover img{
     transform: scale(1.5,1.5);
 
 }
+.img_container:hover .surface{
+visibility: visible;
+}
 .first_div{
-    margin-right:3%
+    margin-right:3%;
 }
 
 
@@ -53,6 +75,27 @@
 
 
 
+.myButton {
+	background-color:white;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:18px;
+	padding:10px 42px;
+	text-decoration:none;
+}
+.myButton:hover {
+    background-color:rgb(48, 42, 42);
+    color: white;
+    border:1px solid white;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 
 
