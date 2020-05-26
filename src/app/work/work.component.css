@@ -1,0 +1,47 @@
+.first_row h2{
+    color:#fff;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    text-align: center !important;
+
+}
+.work{
+    padding-top: 5%;
+}
+.work_details div{
+    margin-bottom: 2%;
+    border-radius: 0.25rem;
+}
+.work_details{
+    padding-left: 10%;
+}
+.work_details img{
+    width: 100%;
+    transition: all 1s ;
+
+}
+.work_details h2{
+    color:black;
+    font-family:'Work Sans', sans-serif;;
+    font-size: 27px;
+    text-align: center;
+}
+.work_details p{
+    color:black;
+    font-family:'Work Sans', sans-serif;;
+    font-size: 20px;
+    text-align: left;
+
+}
+.img_container{
+    overflow: hidden;
+    width: 100%;
+
+}
+.img_container:hover img{
+    transform: scale(1.5,1.5);
+
+}
+.first_div{
+    margin-right:3%
+}
