@@ -84,7 +84,7 @@ visibility: visible;
 
 @media (min-width: 400px) and (max-width:900px) {
     .two {
-      height: 700px;
+      height: 600px;
       padding-bottom: 0;
     }
 }
