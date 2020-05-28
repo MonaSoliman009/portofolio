@@ -30,8 +30,8 @@
 }
 .work_details img{
     width: 100%;
+    height: 25vw;
     transition: all 1s ;
-    height: 105%;
 
 }
 .work_details h2{
@@ -95,15 +95,14 @@ visibility: visible;
 .myButton {
 	background-color:white;
 	border:1px solid black;
-	display:inline-block;
 	cursor:pointer;
 	color:black;
 	font-family:Arial;
 	font-size:18px;
 	padding:10px 42px;
     text-decoration:none;
-    margin-left: 3%;
-    margin-bottom: 2%;
+    /* margin-left: 3%;
+    margin-bottom: 2%; */
 }
 .myButton:hover {
     background-color:rgb(48, 42, 42);
@@ -112,7 +111,6 @@ visibility: visible;
 
 }
 .myButton:active {
-	position:relative;
 	top:1px;
 }
 
