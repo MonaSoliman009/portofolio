@@ -1,6 +1,6 @@
 .first_row h2{
     color:#fff;
-    font-family: 'Sacramento', cursive;
+    font-family:'Work Sans', sans-serif;
     font-size: 4rem;
     text-align: center !important;
 
@@ -17,7 +17,9 @@
 @media (min-width: 400px) and (max-width:900px) {
     .work {
         background-size: 12em,12em;
+
     }
+   
 }
 
 .work_details div{
@@ -25,13 +27,13 @@
     border-radius: 0.25rem;
     /* padding-bottom: 2%; */
 }
-.work_details{
-    padding-left: 10%;
-}
+
 .work_details img{
     width: 100%;
-    height: 25vw;
+    height: 300px;
     transition: all 1s ;
+    position: relative;
+
 
 }
 .work_details h2{
@@ -50,8 +52,6 @@
 .img_container{
     overflow: hidden;
     width: 100%;
-    height: 300px;
-    position: relative;
 
 }
 .surface{
@@ -59,34 +59,39 @@
     top: 0;
     right: 0;
     left: 0;
-    bottom:-20px;
+    bottom:0;
     background-color:black;
     opacity: 0.8;
-    visibility: hidden;
     z-index: 548963254;
     transition: all 0.5s ;
 
 }
-.img_container:hover img{
+img:hover {
     transform: scale(1.5,1.5);
 
 }
-.img_container:hover .surface{
+/* img:hover .surface{
 visibility: visible;
+} */
+.card{
+    margin-left:3%;
 }
-.first_div{
-    margin-right:3%;
-    height: 100%;
-}
 
 
 
 
-@media (min-width: 400px) and (max-width:900px) {
+@media (min-width: 320px) and (max-width:900px) {
     .two {
       height: 600px;
       padding-bottom: 0;
     }
+    .work_details img{
+        height: 200px;
+    }
+    .card {
+
+        margin-left: 0px !important;
+        }
 }
 
 
